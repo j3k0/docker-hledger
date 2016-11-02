@@ -18,18 +18,18 @@ This will expose hledger-web on port 5000. Using data from file `$HOME/hledger-d
 
 ### Environment variables
 
-    * `HLEDGER_JOURNAL_FILE`
-      * input file (default: /data/hledger.journal)
-    * `HLEDGER_PORT`
-      * set the tcp port (default: 5000)
-    * `HLEDGER_DEBUG`
-      * debug output (default: 1, increase for more)
-    * `HLEDGER_BASE_URL`
-      * set the base url (default: http://localhost:PORT)
-    * `HLEDGER_FILE_URL`
-      * set the static files url (default: BASEURL/static)
-    * `HLEDGER_RULES_FILE`
-      * CSV conversion rules file (default: /data/hledger.rules)
+ * `HLEDGER_JOURNAL_FILE`
+   * input file (default: /data/hledger.journal)
+ * `HLEDGER_PORT`
+   * set the tcp port (default: 5000)
+ * `HLEDGER_DEBUG`
+   * debug output (default: 1, increase for more)
+ * `HLEDGER_BASE_URL`
+   * set the base url (default: http://localhost:PORT)
+ * `HLEDGER_FILE_URL`
+   * set the static files url (default: BASEURL/static)
+ * `HLEDGER_RULES_FILE`
+   * CSV conversion rules file (default: /data/hledger.rules)
 
 ## hledger cli
 
